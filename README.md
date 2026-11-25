@@ -5,7 +5,7 @@ Aplikasi web dashboard biodata anggota tim dengan fitur CRUD lengkap dan upload 
 ---
 
 ## Pembuat Proyek
-- **Ketua Tim**: Muhammad Dzaki Al Siraj (24010110198)
+- **Ketua Tim**: MuhammadDzakiAlSiraj (24010110198)
 - **Anggota Tim**: Algea Reska Nanda (24010110237)
 
 ---
