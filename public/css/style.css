@@ -1,0 +1,127 @@
+/* CSS kustom untuk Dashboard Biodata UTS Pem Web */
+body {
+    background-color: #f8f9fa;
+    color: #333333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Card Styling */
+.card-team {
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-team:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+/* Gambar Biodata */
+.card-img-wrapper {
+    width: 100%;
+    height: 415px;
+    background-color: #e9ecef;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+/* Kartu Tambah (Pertama / Paling Kiri) */
+.card-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 520px;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-add:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.1);
+}
+
+.btn-add-circle {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #34d399 0%, #10b981 50%, #059669 100%);
+    box-shadow: 0 8px 20px rgba(16, 185, 129, 0.4), inset 0 2px 4px rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-add:hover .btn-add-circle {
+    transform: scale(1.08);
+    box-shadow: 0 12px 25px rgba(16, 185, 129, 0.5), inset 0 2px 4px rgba(255, 255, 255, 0.7);
+}
+
+.btn-add-circle svg {
+    width: 54px;
+    height: 54px;
+}
+
+/* Card Body Typography */
+.card-team-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+    color: #212529;
+}
+
+.card-team-desc {
+    font-size: 0.875rem;
+    color: #6c757d;
+    line-height: 1.45;
+}
+
+/* Preview Foto di Modal */
+.preview-container {
+    width: 100%;
+    max-height: 250px;
+    background-color: #f1f3f5;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview-container img {
+    max-height: 250px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Footer Styling */
+footer {
+    flex-shrink: 0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
