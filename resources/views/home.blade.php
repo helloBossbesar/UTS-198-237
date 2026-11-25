@@ -28,10 +28,10 @@
                         <a class="nav-link" href="#">Features</a>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link disabled text-muted">(Masukkan Nama)</span>
+                        <span class="nav-link disabled text-muted">Muhammad Dzaki Al Siraj</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link disabled text-muted">(Masukkan NIM)</span>
+                        <span class="nav-link disabled text-muted">24010110198</span>
                     </li>
                 </ul>
             </div>
@@ -75,7 +75,7 @@
             </p>
             <hr class="my-3 text-secondary opacity-25">
             <p class="text-secondary small mb-0">
-                &copy; 2025 Dibuat Sejujurjurnya Oleh Team (Masukkan Nama ketua) dan (Masukkan Nama Anggota) Tanpa Mencotek dari Tim Lain
+                &copy; 2025 Dibuat Sejujurjurnya Oleh Team Muhammad Dzaki Al Siraj dan Algea Reska Nanda Tanpa Mencotek dari Tim Lain
             </p>
         </div>
     </footer>
@@ -158,3 +158,4 @@
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
+
